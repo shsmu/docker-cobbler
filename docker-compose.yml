@@ -1,0 +1,6 @@
+cobbler:
+  image: shsmu/cka-cobbler
+  volumes:
+    - /mnt:/mnt:ro
+  env_file: cobbler.env
+  net: "host"
